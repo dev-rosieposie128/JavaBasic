@@ -41,6 +41,19 @@ public class EnumDriver {
         for(Week day : days){
             System.out.println(day);
         }
+/*
+        for (Week day : days) {
+            System.out.println(day.korean + " (" + day.chinese + ")");
+        }
+
+        Week.SATURDAY.korean = "변경된다";
+        System.out.println(Week.SATURDAY.korean);*/
+
+        for (Week day : days) {
+            System.out.println(day.getKorean() + " (" + day.getChinese() + ")");
+        }
+
+        System.out.println(Week.SATURDAY.getKorean());
 
     }
 }
