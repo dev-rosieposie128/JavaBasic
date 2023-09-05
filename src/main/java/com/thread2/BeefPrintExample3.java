@@ -12,7 +12,7 @@ public class BeefPrintExample3 {
         Thread thread = new BeefThread();
          */
 
-        /* 2.두번째 방법 */
+        /* 2.두번째 방법*/
         Thread thread = new Thread(){
             @Override
             public void run() {
